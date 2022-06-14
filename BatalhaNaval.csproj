@@ -7,4 +7,28 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Enums\" />
+    <None Remove="Extensions\" />
+    <None Remove="BatalhaNavalTests\obj\BatalhaNavalTests.csproj.nuget.g.props" />
+    <None Remove="BatalhaNavalTests\obj\BatalhaNavalTests.csproj.nuget.g.targets" />
+    <None Remove="BatalhaNavalTests\obj\BatalhaNavalTests.csproj.nuget.dgspec.json" />
+    <None Remove="BatalhaNavalTests\bin\Debug\net6.0\CoverletSourceRootsMapping" />
+    <None Remove="BatalhaNavalTests\obj\Debug\net6.0\BatalhaNavalTests.csproj.AssemblyReference.cache" />
+    <None Remove="BatalhaNavalTests\obj\project.assets.json" />
+    <None Remove="BatalhaNavalTests\obj\project.nuget.cache" />
+    <None Remove="BatalhaNavalTests\obj\Debug\net6.0\BatalhaNavalTests.assets.cache" />
+    <None Remove="BatalhaNavalTests\obj\Debug\net6.0\BatalhaNavalTests.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Remove="BatalhaNavalTests\obj\Debug\net6.0\BatalhaNavalTests.AssemblyInfoInputs.cache" />
+    <None Remove="BatalhaNavalTests\obj\Debug\net6.0\BatalhaNavalTests.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="BatalhaNavalTests\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Remove="BatalhaNavalTests\obj\Debug\net6.0\BatalhaNavalTests.AssemblyInfo.cs" />
+    <Compile Remove="BatalhaNavalTests\ValidationTests.cs" />
+  </ItemGroup>
 </Project>
